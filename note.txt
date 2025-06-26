@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Your Link Page</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background: #f5f5f5;
+color: #333;
+text-align: center;
+padding: 2rem;
+}
+.container {
+max-width: 600px;
+margin: 0 auto;
+}
+.profile-pic {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 1rem;
+}
+h1 {
+margin-bottom: 0.5rem;
+}
+.links {
+margin-top: 2rem;
+}
+.links a {
+display: block;
+background: #fff;
+color: #0073e6;
+text-decoration: none;
+border: 1px solid #ddd;
+padding: 1rem;
+margin-bottom: 1rem;
+border-radius: 8px;
+transition: background 0.2s;
+}
+.links a:hover {
+background: #e6f2ff;
+}
+.footer {
+margin-top: 3rem;
+font-size: 0.8rem;
+color: #555;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<img src="https://via.placeholder.com/120" alt="Your profile picture" class="profile-pic" />
+<h1>Your Name</h1>
+<p>Welcome! Choose a link below 👇</p>
+
+<div class="links">
+<!-- Duplicate this block to add more links -->
+<a href="https://example.com/link1" target="_blank">🎁 $750 SEPHORA Coupon</a>
+<a href="https://example.com/link2" target="_blank">💸 $750 CashApp Coupon</a>
+<a href="https://example.com/link3" target="_blank">🛍️ $750 SHEIN Coupon</a>
+<!-- Add or duplicate links -->
+</div>
+
+<div class="footer">
+© 2025 Your Name
+</div>
+</div>
+</body>
+</html>
